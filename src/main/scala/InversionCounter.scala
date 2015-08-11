@@ -3,6 +3,10 @@ package org.naasir.algoriddimz
 /** Counts the number of inversions in an array of integers.
   * Inversions are pairs (i,j) of array indices
   * such that i < j and A[i] > A[j]
+  *
+  * Input: array A of n integers
+  * Output: count of number of inversions within A
+  * Design: divide-and-conquer
   */
 object InversionCounter {
 
