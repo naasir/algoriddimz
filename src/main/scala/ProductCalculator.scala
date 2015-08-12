@@ -1,7 +1,7 @@
 package org.naasir.algoriddimz
 
 /** Problem: Given an array A of integers,
-  * return an array of product such that the product at each index,
+  * return an array of products such that the product at each index,
   * is the product of of every integer in A EXCEPT the integer at that index.
   *
   * Input: array A of n integers
