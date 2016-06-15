@@ -36,7 +36,7 @@ object Build extends Build {
 
   lazy val testSettings = Seq(
     testOptions in Test := Seq(
-      Tests.Argument(TestFrameworks.ScalaTest, "-o"), // console reporter
+      Tests.Argument(TestFrameworks.ScalaTest, "-oD"), // console reporter w/ durations
       Tests.Argument(TestFrameworks.ScalaTest, "-u", "target/test-reports") // junit xml reporter
     )
   )
